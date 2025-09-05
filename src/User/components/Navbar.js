@@ -22,7 +22,14 @@ const Navbar = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M3 5h18v3.5h-6.5v12.5h-5V8.5H3V5z"/>
+                  <path d="M4.5 6.5h15v1h-6.5v12.5h-2V7.5H4.5V6.5z" fill="white" opacity="0.4"/>
+                  <rect x="10.5" y="8.5" width="3" height="1.5" fill="white" opacity="0.6" rx="0.75"/>
+                </svg>
+              </div>
               <h1 className="text-2xl font-bold text-primary-600">TeamBoard</h1>
             </div>
           </div>
